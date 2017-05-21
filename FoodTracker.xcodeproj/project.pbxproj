@@ -14,6 +14,7 @@
 		EF47327C1EBC27F1000346C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF47327B1EBC27F1000346C7 /* Assets.xcassets */; };
 		EF47327F1EBC27F1000346C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF47327D1EBC27F1000346C7 /* LaunchScreen.storyboard */; };
 		EF47328A1EBC27F1000346C7 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4732891EBC27F1000346C7 /* FoodTrackerTests.swift */; };
+		EF608FA71ED210FD00736946 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF608FA61ED210FD00736946 /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EF4732851EBC27F1000346C7 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4732891EBC27F1000346C7 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		EF47328B1EBC27F1000346C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF608FA61ED210FD00736946 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				EF4732741EBC27F1000346C7 /* AppDelegate.swift */,
 				EF4732761EBC27F1000346C7 /* ViewController.swift */,
 				EF12CEEF1EC40D690054B2CD /* RatingControl.swift */,
+				EF608FA61ED210FD00736946 /* Meal.swift */,
 				EF4732781EBC27F1000346C7 /* Main.storyboard */,
 				EF47327B1EBC27F1000346C7 /* Assets.xcassets */,
 				EF47327D1EBC27F1000346C7 /* LaunchScreen.storyboard */,
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF608FA71ED210FD00736946 /* Meal.swift in Sources */,
 				EF4732771EBC27F1000346C7 /* ViewController.swift in Sources */,
 				EF12CEF01EC40D690054B2CD /* RatingControl.swift in Sources */,
 				EF4732751EBC27F1000346C7 /* AppDelegate.swift in Sources */,
